@@ -28,3 +28,6 @@ function closeRightSidebar() {
   rightSidebar.style.display = 'none';
 }
 
+function navigateToTopPage() {
+  window.scrollTo(0, 0);
+}
