@@ -1,0 +1,204 @@
+body {
+    font-family: Playfair, serif;
+    margin: 100;
+    padding: 40px;
+    background-color: #fbecee;
+    display: flex;
+   
+      
+  }
+  
+  
+  .sidebar {
+    width: 200px;
+    height: 800px;
+    background-color: #fbecee;
+    padding: 10px;
+    text-align: center;
+    font-size: 14.5px;
+    font-weight: 700;
+    position: fixed;
+  }
+  
+  .sidebar a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+  }
+
+  .sidebar h4 {
+    margin-top: 60px; /* 調整上邊距的數值 */
+    text-align: center;
+    font-family: Caveat, cursive;
+    font-weight: 600;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 0 45px;
+    margin-top: 15px;
+    margin-left: 250px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    margin: 10px;
+  }
+  
+  .gallery-item img {
+    display: block;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  /* 新增的 CSS 样式 */
+  .right-sidebar {
+    width: 300px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: none;
+  }
+
+  .right-sidebar img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .centered-text {
+    text-align: center;
+    margin-top: 110px;
+  }
+
+
+  a {
+    text-decoration: none;
+  } /*去除藍色小橫線*/
+
+  .happy{
+    width: 1200px;
+    margin: 20px 10px;
+    overflow: hidden; /* 避免長方框下面顯示不正常 */
+  }
+  .bdcard{
+    width: 350px;
+    float:left; /* 圖片在左邊 */
+    padding: 10px;
+  }
+  .bdcard img{
+    margin: 0px 2px 1px 0px;
+    display: block;
+    width:100%;
+  }
+  .bdtext{
+    float: right;  /* 文字在右邊 */
+    width: 770px;
+    padding: 3px 20px 0px 0px;
+  }
+
+  .image-container {
+    display: block; /* 將容器設置為塊級元素 */
+    clear: left; /* 清除左側的浮動元素 */
+  }
+
+
+  .happy2{
+    width: 1200px;
+    margin: 20px 19px;
+    overflow: hidden; /* 避免長方框下面顯示不正常 */
+  }
+  .bdcard2{
+    width: 350px;
+    float:left; /* 圖片在左邊 */
+    padding: 10px;
+  }
+  .bdcard2 img{
+    margin: 0px 2px 1px 0px;
+    display: block;
+    width:100%;
+  }
+  .bdtext2{
+    float: right;  /* 文字在右邊 */
+    width: 770px;
+    padding: 3px 20px 0px 0px;
+  }
+
+  .image-container {
+    margin-bottom: 74px;
+  }
+
+  .image-containerTOP {
+    margin-top: -15px;
+  }
+
+  .h4-margin {
+    margin-bottom: -3px;
+    margin-left: 8px;
+    margin-top: 50px;
+  }
+
+  .Angtext {
+    margin-left: 421px;
+    margin-top: -18px;
+  }
+  
+  .Angtext2 {
+    margin-left: 300px;
+    margin-top: -10px;
+  }
+  
+  .biotext {
+    margin-top: 20px
+  }
+
+  .makeitcenter {
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+
+  .pmargin {
+    margin-bottom: 70px;
+  }
+
+  .kofimargin {
+    margin-top: 80px;
+  }
+
+  .happy3{
+    width: 1200px;
+    margin: 20px 19px;
+    overflow: hidden; /* 避免長方框下面顯示不正常 */
+  }
+  .bdcard3{
+    width: 400px;
+    float:left; /* 圖片在左邊 */
+    padding: 10px;
+  }
+  .bdcard3 img{
+    margin: 0px 2px 1px 0px;
+    display: block;
+    width:100%;
+  }
+  .bdtext3{
+    float: right;  /* 文字在右邊 */
+    width: 770px;
+    padding: 3px 2px 0px 0px;
+    margin-top: 40px;
+    margin-right: -20px;
+  }
+
+    
