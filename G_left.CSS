@@ -201,4 +201,8 @@ body {
     margin-right: -20px;
   }
 
-    
+   .link-container {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 278px;
+  }
